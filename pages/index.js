@@ -42,11 +42,12 @@ const StyledHeader = styled.div`
         gap: 16px;
     }
 `;
+
 function Header() {
     return (
         <StyledHeader>
             {/*<img src="banner" />*/}
-
+           
             <section className="user-info">
                 <img src={`https://github.com/${config.github}.png`} />
                 <div>
